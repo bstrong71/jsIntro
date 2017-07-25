@@ -45,9 +45,10 @@ math = high - "5";
 let born = 1984;
 let today = 2017;
 // A:
-let age = (today - born){
+let age = (today - born)
+
   console.log("Tim is " + age + " years old");
-}
+
 
 // 8.
 // Adjust this code. Store some information in the following variables.
@@ -176,7 +177,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A: True!
+// A: False!
 
 
 // 25.
@@ -194,7 +195,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 27.
@@ -203,7 +204,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 28.
@@ -212,7 +213,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 29.
@@ -221,7 +222,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 30.
