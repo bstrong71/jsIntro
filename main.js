@@ -129,7 +129,7 @@ let f = (NaN == NaN);
 // Use the variable `thirsty` as part of your conditional expression.
 // A:
 let thirsty = true;
-
+  if (thirsty === true)
 {
   console.log("I'm parched!");
 } else {
@@ -146,7 +146,7 @@ if(xy){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 22.
@@ -155,7 +155,7 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 23.
@@ -167,7 +167,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 24.
@@ -176,7 +176,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 25.
@@ -185,7 +185,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 26.
